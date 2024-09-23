@@ -7,7 +7,7 @@ relational SQL databases. This pattern shows how to use
 
 A running MongoDB server and `Flask-MongoEngine`_ are required. ::
 
-    pip install flask-mongoengine
+    pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' flask-mongoengine
 
 .. _MongoEngine: http://mongoengine.org
 .. _Flask-MongoEngine: https://flask-mongoengine.readthedocs.io

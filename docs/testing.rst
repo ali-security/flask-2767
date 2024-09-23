@@ -9,7 +9,7 @@ We will use the `pytest`_ framework to set up and run our tests.
 
 .. code-block:: text
 
-    $ pip install pytest
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' pytest
 
 .. _pytest: https://docs.pytest.org/
 

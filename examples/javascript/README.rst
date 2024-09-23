@@ -25,7 +25,7 @@ Install
 
     $ python3 -m venv venv
     $ . venv/bin/activate
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 
 Run
@@ -43,6 +43,6 @@ Test
 
 .. code-block:: text
 
-    $ pip install -e '.[test]'
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e '.[test]'
     $ coverage run -m pytest
     $ coverage report

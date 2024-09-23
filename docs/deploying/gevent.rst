@@ -35,8 +35,8 @@ Create a virtualenv, install your application, then install ``gevent``.
     $ cd hello-app
     $ python -m venv venv
     $ . venv/bin/activate
-    $ pip install .  # install your application
-    $ pip install gevent
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' .  # install your application
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' gevent
 
 
 Running

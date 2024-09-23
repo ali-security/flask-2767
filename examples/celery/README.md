@@ -11,7 +11,7 @@ Celery worker.
 ```shell
 $ python3 -m venv .venv
 $ . ./.venv/bin/activate
-$ pip install -r requirements.txt && pip install -e .
+$ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -r requirements.txt && pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 $ celery -A make_celery worker --loglevel INFO
 ```
 

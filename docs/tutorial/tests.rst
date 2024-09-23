@@ -28,7 +28,7 @@ Install them both:
 
 .. code-block:: none
 
-    $ pip install pytest coverage
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' pytest coverage
 
 .. _pytest: https://pytest.readthedocs.io/
 .. _coverage: https://coverage.readthedocs.io/

@@ -46,7 +46,7 @@ To use Sentry you need to install the ``sentry-sdk`` client with extra
 
 .. code-block:: text
 
-    $ pip install sentry-sdk[flask]
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' sentry-sdk[flask]
 
 And then add this to your Flask app:
 

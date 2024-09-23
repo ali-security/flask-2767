@@ -281,7 +281,7 @@ ecosystem remain consistent and compatible.
         applications. Use the ``ext.init_app()`` pattern.
 
 5.  From a clone of the repository, an extension with its dependencies
-    must be installable in editable mode with ``pip install -e .``.
+    must be installable in editable mode with ``pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .``.
 6.  It must ship tests that can be invoked with a common tool like
     ``tox -e py``, ``nox -s test`` or ``pytest``. If not using ``tox``,
     the test dependencies should be specified in a requirements file.

@@ -15,7 +15,7 @@ the tutorial or as a new Python user, including:
     Installing means you can import it no matter where you run from.
 
 *   You can manage your project's dependencies just like other packages
-    do, so ``pip install yourproject.whl`` installs them.
+    do, so ``pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' yourproject.whl`` installs them.
 
 *   Test tools can isolate your test environment from your development
     environment.
@@ -81,7 +81,7 @@ Use ``pip`` to install your project in the virtual environment.
 
 .. code-block:: none
 
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 This tells pip to find ``setup.py`` in the current directory and install
 it in *editable* or *development* mode. Editable mode means that as you

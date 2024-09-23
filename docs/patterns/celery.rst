@@ -26,7 +26,7 @@ Install Celery from PyPI, for example using pip:
 
 .. code-block:: text
 
-    $ pip install celery
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' celery
 
 
 Integrate Celery with Flask

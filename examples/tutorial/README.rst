@@ -33,13 +33,13 @@ Or on Windows cmd::
 
 Install Flaskr::
 
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 Or if you are using the main branch, install Flask from source before
 installing Flaskr::
 
-    $ pip install -e ../..
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e ../..
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 
 Run
@@ -58,7 +58,7 @@ Test
 
 ::
 
-    $ pip install '.[test]'
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' '.[test]'
     $ pytest
 
 Run with coverage report::

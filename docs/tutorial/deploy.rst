@@ -21,7 +21,7 @@ is installed first:
 
 .. code-block:: none
 
-    $ pip install wheel
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' wheel
 
 Running ``setup.py`` with Python gives you a command line tool to issue
 build-related commands. The ``bdist_wheel`` command will build a wheel
@@ -41,7 +41,7 @@ file with ``pip``.
 
 .. code-block:: none
 
-    $ pip install flaskr-1.0.0-py3-none-any.whl
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' flaskr-1.0.0-py3-none-any.whl
 
 Pip will install your project along with its dependencies.
 
@@ -98,7 +98,7 @@ first install it in the virtual environment:
 
 .. code-block:: none
 
-    $ pip install waitress
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' waitress
 
 You need to tell Waitress about your application, but it doesn't use
 ``--app`` like ``flask run`` does. You need to tell it to import and

@@ -652,7 +652,7 @@ Released 2018-04-26
     needed, for example ``FLASK_APP=myproject.app:create_app('dev')``.
     :pr:`2326`
 -   ``FLASK_APP`` can point to local packages that are not installed in
-    editable mode, although ``pip install -e`` is still preferred.
+    editable mode, although ``pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e`` is still preferred.
     :pr:`2414`
 -   The ``View`` class attribute
     ``View.provide_automatic_options`` is set in ``View.as_view``, to be

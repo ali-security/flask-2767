@@ -237,7 +237,7 @@ python-dotenv is not installed.
 .. code-block:: bash
 
     $ flask run
-     * Tip: There are .env files present. Do "pip install python-dotenv" to use them.
+     * Tip: There are .env files present. Do "pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' python-dotenv" to use them.
 
 You can tell Flask not to load dotenv files even when python-dotenv is
 installed by setting the ``FLASK_SKIP_DOTENV`` environment variable.
@@ -518,7 +518,7 @@ Define the entry point in :file:`setup.py`::
 Install the application in the virtualenv in editable mode and the custom
 script is available. Note that you don't need to set ``--app``. ::
 
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
     $ wiki run
 
 .. admonition:: Errors in Custom Scripts

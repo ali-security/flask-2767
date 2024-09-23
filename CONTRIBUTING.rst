@@ -116,14 +116,14 @@ First time setup
 
     .. code-block:: text
 
-        $ python -m pip install --upgrade pip setuptools
+        $ python -m pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools
 
 -   Install the development dependencies, then install Flask in editable
     mode.
 
     .. code-block:: text
 
-        $ pip install -r requirements/dev.txt && pip install -e .
+        $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -r requirements/dev.txt && pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 -   Install the pre-commit hooks.
 
@@ -203,7 +203,7 @@ generate a report.
 
 .. code-block:: text
 
-    $ pip install coverage
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' coverage
     $ coverage run -m pytest
     $ coverage html
 

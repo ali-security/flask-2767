@@ -24,7 +24,7 @@ Install and update using `pip`_:
 
 .. code-block:: text
 
-    $ pip install -U Flask
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -U Flask
 
 .. _pip: https://pip.pypa.io/en/stable/getting-started/
 

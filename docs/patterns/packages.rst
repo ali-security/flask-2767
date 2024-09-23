@@ -60,7 +60,7 @@ Install your application so it is importable:
 
 .. code-block:: text
 
-    $ pip install -e .
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' -e .
 
 To use the ``flask`` command and run your application you need to set
 the ``--app`` option that tells Flask where to find the application

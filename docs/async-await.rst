@@ -7,7 +7,7 @@ Using ``async`` and ``await``
 
 Routes, error handlers, before request, after request, and teardown
 functions can all be coroutine functions if Flask is installed with the
-``async`` extra (``pip install flask[async]``). This allows views to be
+``async`` extra (``pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' flask[async]``). This allows views to be
 defined with ``async def`` and use ``await``.
 
 .. code-block:: python

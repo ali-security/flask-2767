@@ -139,7 +139,7 @@ Flask:
 
 .. code-block:: sh
 
-    $ pip install Flask
+    $ pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' Flask
 
 Flask is now installed. Check out the :doc:`/quickstart` or go to the
 :doc:`Documentation Overview </index>`.

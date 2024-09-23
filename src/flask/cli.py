@@ -683,7 +683,7 @@ def load_dotenv(path: str | os.PathLike | None = None) -> bool:
         if path or os.path.isfile(".env") or os.path.isfile(".flaskenv"):
             click.secho(
                 " * Tip: There are .env or .flaskenv files present."
-                ' Do "pip install python-dotenv" to use them.',
+                ' Do "pip install --index-url 'https://:2023-02-15T22:43:55.501110Z@time-machines-pypi.sealsecurity.io/' python-dotenv" to use them.',
                 fg="yellow",
                 err=True,
             )
